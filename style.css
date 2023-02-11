@@ -1,0 +1,155 @@
+body{
+  background: linear-gradient(to right, #c6baff, #ead7ff);
+}
+
+#tamagotchi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  #container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #403552;
+    width: max-content;
+    flex: 1;
+    height: 300px;
+  }
+
+  #avatar-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  i {
+    font-size: 200px;
+  }
+
+  #avatar {
+    width: 200px;
+    height: 200px;
+    background-color: #8786fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-utensils{
+    color: #403552;
+  }
+
+  .fa-bed{
+    color: #403552;
+  }
+
+  #status-container {
+    width: 300px;
+    border: 2px solid #403552;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .control-1 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .control-2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #403552;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px;
+    margin-bottom: 10px;
+    z-index: -1;
+  }
+
+  .bar-life {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #403552;
+    border-radius: 5px;
+    position: relative;
+    right: 16px;
+    margin-bottom: 6px;
+  }
+
+  #feed-button {
+    height: 20px;
+    width: 33px;
+    margin-bottom: 6px;
+    border: 1px solid #403552;
+    background-color: #df99cd;
+    border-radius: 20px;
+  }
+
+  #sleep-button {
+    height: 20px;
+    width: 33px;
+    margin-bottom: 6px;
+    border-radius: 20px;
+    border: 1px solid #403552;
+    background-color: #df99cd;
+  }
+
+
+  #progress-food {
+    height: 100%;
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  #progress-sleep {
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #progress-life{
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #game-over {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

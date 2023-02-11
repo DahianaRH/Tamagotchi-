@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link  rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/3ed303d492.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="tamagotchi">
+      <div id="container">
+        <div id="avatar-container">
+          <i id="avatar" class="far fa-laugh-beam"></i>
+        </div>
+      </div>
+
+        <div id="status-container">
+          <div class="control-1">
+            <div id="food-bar" class="bar" >
+              <div id="progress-food"></div>
+            </div>
+            <button id="feed-button" class="fas fa-utensils"></button>
+          </div>
+          <div class="control-2">
+            <div id="sleep-bar" class="bar">
+              <div id="progress-sleep"></div>
+            </div>
+            <button id="sleep-button" class="fas fa-bed"></button>
+          </div>
+          <div id="life-bar" class="bar-life">
+            <div id="progress-life"></div>
+          </div>
+        </div>
+
+      </div>
+      <div id="game-over">
+        <p>GAME OVER</p>
+        <button id="start-button">Start</button>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
